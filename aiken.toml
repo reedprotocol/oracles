@@ -1,0 +1,21 @@
+name = "studio/er_validator"
+version = "0.0.0"
+license = "Apache-2.0"
+description = "Pyth Lazer ER validator for the reed protocol"
+
+[repository]
+user = "studio"
+project = "er_validator"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v3.0.0"
+source = "github"
+
+[[dependencies]]
+name = "pyth-network/pyth-lazer-cardano"
+version = "217b5917228b17f015719b27dd616a75ad6bd800"
+source = "github"
+
+plutus = "v3"
