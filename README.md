@@ -17,17 +17,9 @@ Manages the REE/ADA pool oracle UTxO on-chain using an anchor NFT:
 
 - **Mint** — creates the anchor NFT at a unique seed UTxO
 - **Update** — anyone can update the oracle datum, provided it matches live DEX pool reserves exactly and respects a rate-limit interval
-- **Retire** — burns the anchor NFT permanently
+- **Retire** — burns the anchor NFT
  
 ## Tests
  
 ```sh
 aiken check
-Each validator includes tests for happy paths, parameter sanity, adversarial oracle data, pool datum edge cases, redeemer mismatches, and access control.
-
-Dependencies
-Aiken Standard Library v3.0.0
-Pyth Lazer Cardano SDK
-
-License
-Apache-2.0
